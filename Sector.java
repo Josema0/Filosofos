@@ -49,7 +49,7 @@ public class Sector {
 		if(!this.ocupado) {
 			return false;
 		} else {
-			ocupado = false;
+			this.ocupado = false;
 			return true;
 		}
 	}
